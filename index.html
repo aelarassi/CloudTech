@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Import Styles -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600" rel="stylesheet" property="stylesheet" type="text/css"
+    media="all">
+
+  <title>CloudTech - Slogan about the company here</title>
+</head>
+
+<body>
+  <div id="loading">
+    <img id="loading-image" src="images/loader.gif" alt="Loading..." />
+  </div>
+  <div class="bg-dark pt-10 pb-10">
+    <div class="container top-navbar">
+      <div class="contactInfo">
+        <span>Appeler : <a href="tel:0522909090">05 22 90 90 90</a></span>
+        <span>Email : <a href="mailto:contact@cloudtech.ma">contact@cloudtech.ma</a></span>
+      </div>
+      <div class="account text-white">
+        <img src="./images/avatar.jpg" alt="profile">
+        <h4 class="fw-400 ml-15 mr-30">Ahmed Alaoui</h4>
+        <i class="icon ion-md-arrow-dropdown"></i>
+      </div>
+    </div>
+  </div>
+  <nav class="bg-white pt-15 pb-15">
+    <div class="container">
+      <a href="/"><img src="./images/logo.png" alt=""></a>
+      <ul>
+        <li><a href="#Produits">Produits</a></li>
+        <li><a href="#Solutions">Solutions</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Support">Support</a></li>
+        <li><a href="#Contactez nous">Contactez nous</a></li>
+        <li><a href="#A propos">A propos</a></li>
+      </ul>
+      <i onclick="search()" class="icon ion-md-search mobile-hidden"></i>
+    </div>
+    <div id="Search" class="search mobile-hidden pt-20 pb-20">
+      <input type="text" placeholder="Search..." autofocus>
+    </div>
+  </nav>
+  <div class="slideshow">
+    <div class="group-buttons pr-30 pl-30">
+      <div class="btn-prev"> <a onclick="plusSlides(-1)" class="text-white"><i class="icon ion-ios-arrow-dropleft-circle"></i></a>
+      </div>
+      <div class="btn-next"> <a onclick="plusSlides(1)" class="text-white"><i class="icon ion-ios-arrow-dropright-circle"></i></a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/slider_1.jpg" alt="">
+      <div class="content text-white">
+        <h1 class="title">1 Solution intergées pour vous aider à piloter votre tranformation métier et IT dans le Cloud.</h1>
+        <h3 class="fw-100 mt-10">retro occupy organic, supmtown shaddy chic pour-over roof party DIY Actually artisan occupy
+          organic.
+        </h3>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/slider_2.jpg" alt="">
+      <div class="content text-white">
+        <h1 class="title">2 Solution intergées pour vous aider à piloter votre tranformation métier et IT dans le Cloud.</h1>
+        <h3 class="fw-100 mt-10">retro occupy organic, supmtown shaddy chic pour-over roof party DIY Actually artisan occupy
+          organic.
+        </h3>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="images/slider_3.jpg" alt="">
+      <div class="content text-white">
+        <h1 class="title">3 Solution intergées pour vous aider à piloter votre tranformation métier et IT dans le Cloud.</h1>
+        <h3 class="fw-100 mt-10">retro occupy organic, supmtown shaddy chic pour-over roof party DIY Actually artisan occupy
+          organic.
+        </h3>
+      </div>
+    </div>
+    <div class="group-dashed">
+      <div class="dashed active" onclick="currentSlide(1)"></div>
+      <div class="dashed" onclick="currentSlide(2)"></div>
+      <div class="dashed" onclick="currentSlide(3)"></div>
+    </div>
+  </div>
+  <div class="bg-light pt-50 pb-50">
+    <div class="products pb-40">
+      <div class="container products-items">
+        <div class="products-item pt-30 pb-30">
+          <img src="./images/backup.jpg" class="img-icon m-auto" alt="">
+          <h2 class="text-orange fw-400">Backup as A service:</h2>
+          <ul>
+            <li>
+              <p>Sécurité: Transfert crypté End-To-End</p>
+            </li>
+            <li>
+              <p>Protection de données et de la vie privée et accés contolé</p>
+            </li>
+            <li>
+              <p>Scalable et Capacité à la demande</p>
+            </li>
+            <li>
+              <p>Surveillance 24X7</p>
+            </li>
+            <li>
+              <p>Support 24X7</p>
+            </li>
+            <li>
+              <p>Tarification à la consommation</p>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-orange btn-lg mt-30 ml-20 mr-20 text-white">Plus d'informations</a>
+        </div>
+        <div class="products-item services-selected pt-30 pb-30">
+          <img src="./images/vm.jpg" class="img-icon m-auto" alt="">
+          <h2 class="text-blue fw-400">Virtual Machine</h2>
+          <ul>
+            <li>
+              <p>Simple</p>
+            </li>
+            <li>
+              <p>Flexible et extensible</p>
+            </li>
+            <li>
+              <p>Support 24X7</p>
+            </li>
+            <li>
+              <p>Pas de limite sur le traffic</p>
+            </li>
+            <li>
+              <p>Linux/Windows</p>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-blue btn-lg mt-30 ml-20 mr-20 text-white">Plus d'informations</a>
+        </div>
+        <div class="products-item pt-30 pb-30">
+          <img src="./images/messagerie.jpg" class="img-icon m-auto" alt="">
+          <h2 class="text-red fw-400">Messagerie</h2>
+          <ul>
+            <li>
+              <p>Mobilité</p>
+            </li>
+            <li>
+              <p>Connexion SSL sécutité</p>
+            </li>
+            <li>
+              <p>Disponibilité 99.99%</p>
+            </li>
+            <li>
+              <p>Flexible et extensible</p>
+            </li>
+            <li>
+              <p>Serveur dédié ou mutialisé</p>
+            </li>
+            <li>
+              <p>Agenda, Calendreier, Contact</p>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-red btn-lg mt-30 ml-20 mr-20 text-white">Plus d'informations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white managed-services pt-80 pb-80">
+    <div class="container pt-50 pb-50">
+      <h1>Managed Services</h1>
+      <p class="text-gray fw-100 mb-30">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit vel maiores
+        hic.
+      </p>
+      <a href="#" class="btn btn-green text-white ">Savoir Plus</a>
+    </div>
+  </div>
+  <div class="hero bg-white pt-70 pb-70">
+    <div class="container">
+      <h1 class="title-section text-align-center mb-80">Nos Bénéfices</h1>
+      <div class="services mb-50">
+        <div class="item-services">
+          <img src="images/couts.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Maitrise des couts</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+        <div class="item-services">
+          <img src="images/simplicite.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Simplicité</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+        <div class="item-services">
+          <img src="images/performance.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Performance</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+      </div>
+      <div class="services">
+        <div class="item-services">
+          <img src="images/protection.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Protection des données</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+        <div class="item-services">
+          <img src="images/temps.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Gain de Temps</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+        <div class="item-services">
+          <img src="images/mobilite.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Mobilité</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero bg-light pt-70 pb-70">
+    <div class="container HowTo">
+      <h1 class="title-section">Comment ça marche</h1>
+      <div class="HowTo-items">
+        <div class="HowTo-item">
+          <img src="images/step1.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Title Etape 1</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+        <div class="HowTo-item">
+          <img src="images/step2.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Title Etape 2</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+      </div>
+      <div class="HowTo-items mt-50">
+        <div class="HowTo-item">
+          <img src="images/step3.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Title Etape 3</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+        <div class="HowTo-item">
+          <img src="images/step4.jpg" class="img-icon" alt="">
+          <h3 class="title-section mb-10">Title Etape 4</h3>
+          <p class="text-small fw-400 text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit
+            vel maiores hic.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white">
+    <div class="container pt-30 pb-30 flexBox justify-content-between">
+      <div class="separator mobile-hidden"></div>
+      <div class="separator mobile-hidden"></div>
+      <div class="separator mobile-hidden"></div>
+      <div class="separator mobile-hidden"></div>
+      <div class="separator"></div>
+      <div class="separator"></div>
+    </div>
+  </div>
+  <footer class="bg-dark pt-30 pb-50">
+    <div class="container text-white flexBox flex-wrap pt-30">
+      <div class="item-footer">
+        <img src="images/logo_footer.png" alt="">
+        <p class="text-small fw-100 mb-10 mt-10">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi odit vel maiores hic non laborum ad aspernatur expedita,
+          amet consectetur adipisicing elit. Soluta quasi odit.
+        </p>
+        <ul>
+          <li class="inline-block mr-30"><a href="#facebook"><i class="icon ion-logo-facebook"></i></a></li>
+          <li class="inline-block mr-30"><a href="#twitter"><i class="icon ion-logo-twitter"></i></a></li>
+          <li class="inline-block"><a href="#linkedin"><i class="icon ion-logo-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="item-footer">
+        <h3 class="title-section text-white fw-400">A Propose</h3>
+        <ul>
+          <li><a href="/#">About CloudTech</a></li>
+          <li><a href="/#">Contactez nous</a></li>
+          <li><a href="/#">Support</a></li>
+          <li><a href="/#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="item-footer">
+        <h3 class="title-section text-white fw-400">Hebergement</h3>
+        <ul>
+          <li><a href="/#">Hébergement Web</a></li>
+          <li><a href="/#">Adresses e-mails</a></li>
+          <li><a href="/#">Haute disponibilité</a></li>
+          <li><a href="/#">Protection anti-DDos</a></li>
+          <li><a href="/#">Sertificat SSL Let's Encrypt</a></li>
+        </ul>
+      </div>
+      <div class="item-footer">
+        <h3 class="title-section text-white fw-400">Hebergement</h3>
+        <ul>
+          <li><a href="/#">Hébergement Web</a></li>
+          <li><a href="/#">Adresses e-mails</a></li>
+          <li><a href="/#">Haute disponibilité</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

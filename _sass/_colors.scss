@@ -1,0 +1,72 @@
+$primary-color: #222d38;
+$orange-color: #ff9737;
+$orange-light-color: #f6dcd5;
+$red-color: #ff5023;
+$blue-color: #00b3ba;
+$green-color: #7fc679;
+$white-color: #ffffff;
+$gray-color: #848e9b;
+$gray-light-color: #d3d5d7;
+$white-light-color: #f5f8f8;
+
+// background Colors
+
+.bg-dark {
+  background-color: $primary-color;
+}
+
+.bg-light {
+  background-color: $white-light-color;
+}
+
+.bg-white {
+  background-color: $white-color;
+}
+
+// btn - background Colors
+
+.btn-orange {
+  background-color: $orange-color;
+}
+
+.btn-green {
+  background-color: $green-color;
+}
+
+.btn-blue {
+  background-color: $blue-color;
+}
+
+.btn-red {
+  background-color: $red-color;
+}
+
+//  Color TEXT
+
+.text-white {
+  color: $white-color !important;
+}
+
+.text-dark {
+  color: $primary-color !important;
+}
+
+.text-gray {
+  color: $gray-color !important;
+}
+
+.text-orange {
+  color: $orange-color;
+}
+
+.text-green {
+  color: $green-color;
+}
+
+.text-blue {
+  color: $blue-color;
+}
+
+.text-red {
+  color: $red-color;
+}

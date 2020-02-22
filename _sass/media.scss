@@ -1,0 +1,53 @@
+// Small devices (landscape phones, 576px )
+@media only screen and (max-width: 576px) {
+  .top-navbar {
+    justify-content: center;
+    .contactInfo {
+      text-align: center;
+    }
+  }
+  nav > div {
+    text-align: center;
+    justify-content: center;
+  }
+  .slideshow {
+    height: 90vh;
+    .slide .title {
+      font-size: 25px;
+    }
+    .slide .content {
+      width: 80%;
+    }
+    .group-dashed {
+      bottom: 41%;
+      left: 41%;
+    }
+    .group-buttons {
+      top: 50%;
+    }
+  }
+
+  .services {
+    justify-content: center;
+    text-align: center;
+  }
+  footer p {
+    width: 100% !important;
+  }
+  footer .item-footer {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+
+// Large devices (desktops, 992px )
+@media only screen and (max-width: 992px) {
+  .hero {
+    height: auto !important;
+  }
+}

@@ -1,0 +1,30 @@
+footer ul li a {
+  color: $white-color;
+  font-weight: 100;
+  line-height: 2.3;
+}
+
+footer i {
+  font-size: 32px;
+}
+
+footer p {
+  width: 300px;
+}
+
+footer .item-footer:first-child {
+  width: 220px;
+  flex: 1;
+  padding-left: 0;
+}
+
+footer .item-footer {
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+
+.separator {
+  width: 100px;
+  height: 30px;
+  background-color: $gray-light-color;
+}

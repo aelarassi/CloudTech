@@ -1,0 +1,33 @@
+// TopNavBar
+
+.top-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo a,
+span {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.contactInfo span:nth-child(2) {
+  margin-left: 30px;
+}
+.account {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.account img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}

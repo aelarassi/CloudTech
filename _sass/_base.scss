@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+// Align TEXT
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-align-center {
+  width: 100%;
+  text-align: center;
+}
+
+// Font-weight
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+// Display none
+
+.display-none {
+  display: none !important;
+}
+
+.display-block {
+  display: block !important;
+}
+
+// FlexBox
+
+.flexBox {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+// margin auto
+
+.m-auto {
+  margin: 0 auto;
+}

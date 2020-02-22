@@ -1,0 +1,69 @@
+.hero {
+  height: 100vh;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.title-section {
+  color: $primary-color;
+  margin-bottom: 20px;
+  font-weight: 600px;
+}
+
+.text {
+  color: $gray-color;
+  line-height: 15px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-medium {
+  font-size: 17px;
+}
+
+// Buttons
+
+.btn {
+  cursor: pointer;
+  padding: 14px 50px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.btn-lg {
+  cursor: pointer;
+  padding: 10px 50px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:focus,
+.btn:hover {
+  text-decoration: none;
+}
+
+.img-icon {
+  width: 120px;
+}

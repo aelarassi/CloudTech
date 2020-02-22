@@ -1,0 +1,82 @@
+// Navbar
+nav {
+  position: relative;
+}
+
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 5px 0 (O, O, O, 0.16);
+}
+
+nav a > img {
+  width: 230px;
+}
+
+nav ul > li {
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+}
+
+nav ul > li a {
+  color: $primary-color;
+}
+
+nav ul > li a:hover::before {
+  color: red;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #277cc0;
+}
+
+nav .icon {
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.search {
+  width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  background: #ffffff45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.search input {
+  width: 80%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+.search input::placeholder {
+  color: $white-color;
+  opacity: 0.7;
+}
+
+.search input:focus {
+  outline: 0;
+}
+
+.showSearchBlock {
+  bottom: -80px !important;
+  opacity: 1;
+  z-index: 99 !important;
+}
