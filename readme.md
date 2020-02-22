@@ -1,4 +1,4 @@
-# CloudTech
+# CloudTech [![Netlify Status](https://api.netlify.com/api/v1/badges/b146daee-b008-4008-bab9-f315e2ece094/deploy-status)](https://app.netlify.com/sites/cloudtech-web/deploys)
 
 CloudTech - Slogan about the company here
 
@@ -19,4 +19,4 @@ CloudTech - Slogan about the company here
 
 [MIT](https://choosealicense.com/licenses/mit/) © [ABDELAZIZ EL ARASSI](https://www.linkedin.com/in/aelarassi/)
 
-[online-demo]: https://myapplication10-37367.web.app/
+[online-demo]: https://cloudtech-web.netlify.com/
